@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-radius;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+body{
+  background-color:#b0b0b0;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #fffd91;
+  }
+}
+
+#background{
+  width:50%;
+  height:1080px;
+  background:#d41406;
+  position:relative;
+  left:25%;
+  
+}
+
+#ryuichi{
+  color:black;
+  position:relative;
+  left:12px;
+  top:24px;
+  font-size:120px;
+  font-family: 'Tenor Sans', sans-serif;
+  
+}
+#sakamoto{
+  color:black;
+  position:relative;
+  left:-6px;
+  top:12px;
+  font-size:120px;
+  font-family: 'Tenor Sans', sans-serif;
+  
+}
+
+#linear{
+  background-color:white;
+  width:120px;
+  height:1px;
+  border-radius:1px;
+  position:relative;
+   left:0px;
+   top:50px;
+}
+
+#free{
+  color:white;
+  position:relative;
+  top:60px;
+  left:-20px;
+  font-size:12px;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 24px;
+}
+
+#y{
+   width:120px;
+  height:120px;
+  border-radius:120px;
+  background-color:black;
+  position:relative;
+  top:490px;
+  left:22vw;
+  transition: transform 1s;
+}
+#y:hover{
+  transform: scale(2,2);
+}
+
+#yy{
+   width:120px;
+  height:120px;
+  border-radius:120px;
+  background-color:black;
+  position:relative;
+  top:190px;
+  left:35vw;
+  transition: transform 1s;
+}
+#yy:hover{
+  transform: scale(2,2);
+  
+}
+
+#yyy{
+  width:280px;
+  height:280px;
+  border-radius:280px;
+  background-color:black;
+  position:relative;
+  top:200px;
+  left:30vw;
+  transition: transform 1s;
+}
+#yyy:hover{
+  
+  transform: scale(0.8,0.8);
+  
+}
